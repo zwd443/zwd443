@@ -1,0 +1,14 @@
+# my own train datasets
+
+# data path
+path: ../dataset
+train: images
+val: images
+
+# class
+nc: 9  # class numbers
+names: ['car', 'bus', 'person', 'motorcycle', 'redLight', 'greenLight', 'yellowLight',
+        'bicycle', 'truck']  # class names
+
+# resource download
+download: http://cipfz.xyz/trafficDetection.zip
